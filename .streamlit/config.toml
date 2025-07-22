@@ -3,4 +3,11 @@ primaryColor="#4B8BBE"
 backgroundColor="#F5F6FA"
 secondaryBackgroundColor="#D6EAF8"
 textColor="#262730"
-font="sans serif" 
+font="sans serif"
+
+[server]
+headless = true
+
+[client]
+# Custom title for the browser tab
+title = "Disease Diagnosis System" 
