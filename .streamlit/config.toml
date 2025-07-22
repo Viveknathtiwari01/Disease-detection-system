@@ -8,6 +8,3 @@ font="sans serif"
 [server]
 headless = true
 
-[client]
-# Custom title for the browser tab
-title = "Disease Diagnosis System" 

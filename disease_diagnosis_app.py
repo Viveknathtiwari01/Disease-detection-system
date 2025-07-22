@@ -9,6 +9,10 @@ from wordcloud import WordCloud # type: ignore
 import matplotlib.pyplot as plt
 import plotly.express as px # type: ignore
 
+st.set_page_config(
+    page_title="Disease Diagnosis System", 
+    page_icon = "🩺" )
+
 # --- Disease tips dictionary (expand as needed) ---
 disease_tips = {
     "(vertigo) Paroymsal  Positional Vertigo": [
